@@ -10,3 +10,7 @@ def get_api_key():
     # Hardcoded secret test
     api_key = "AIzaSyD-fake-key-12345"
     return api_key
+    
+def greet_user(username):
+    message = "Hello, " + username
+    return message
